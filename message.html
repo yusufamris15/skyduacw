@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesanan Anda</title>
+</head>
+<body>
+  <h1 id="title">Pesan Sekarang!</h1>
+  <h3>Silahkan isi pesanan Anda di bawah ini</h3>
+  <form action="mailto:yusufamris15@gmail.com" 
+  method="POST" 
+  enctype="text/plain"
+  class="form">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <div class="form-message">
+            <label for="name">Nama Lengkap: </label>
+         </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="name" id="name" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="form-message">
+            <label for="E-mail">E-mail: </label>
+         </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="email" name="email" id="email" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="form-message">
+            <label for="Kritik dan Saran">Kritik dan Saran: </label>
+         </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <textarea name="Kritik dan Saran" id="" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+      <tr>
+        
+        <td>
+          <div class="form-message">
+            <input type="submit" value="Kirim">
+          </div>
+        </td>
+    </tbody>
+  </table>
+</form>
+</body>
+</html>
